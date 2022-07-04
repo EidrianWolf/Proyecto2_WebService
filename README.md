@@ -23,3 +23,5 @@ Hacer funcionar la API:
 - Compilar Cliente_WebService para utilizar la aplicación de ingreso de mascotas.
 
 - El archivo log se almacenará los archivos de payara "payara5\glassfish\domains\domain1\config"
+
+- Para visualizar los datos registrados, dirigirse al navegador web y escribir la dirección "http://localhost:8080/Server_WebService/api/users".
