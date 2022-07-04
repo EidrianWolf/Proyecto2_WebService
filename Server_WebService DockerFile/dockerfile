@@ -1,0 +1,4 @@
+FROM payara/server-full
+VOLUME /tmp
+EXPOSE 8080
+ADD ./dist/Server_WebService.war server.war

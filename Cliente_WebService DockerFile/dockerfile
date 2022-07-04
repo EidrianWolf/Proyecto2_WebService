@@ -1,0 +1,5 @@
+FROM openjdk:11
+VOLUME /tmp
+EXPOSE 8080
+ADD ./dist/Cliente_WebService.jar client.jar
+ENTRYPOINT ["java", "-jar", "/client.jar"]
